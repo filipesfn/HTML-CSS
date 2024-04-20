@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+        <br>   
+
+        <label for="endereco">Endereço</label>
+        <input type="text" name="Endereço" id="endereco" placeholder="Digite seu endereço" required>
+        <br>
+        <label for="cidade">Cidade</label>
+        <input type="text" name="Cidade" id="Cidade" placeholder="Digite a sua cidade de residência" required>
+        <br>
+        <br>
+        <label for="estados">Estados</label>
+        <select name="estados" id="estados">
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="ap">Amapá</option>
+            <option value="am">Amazonas</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="df">Distrito Federal</option>
+            <option value="es">Espirito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="ma">Maranhão</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="ro">Rondônia</option>
+            <option value="rr">Roraima</option>
+            <option value="sp">São Paulo</option>
+            <option value="se">Sergipe</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="to">Tocantins</option>
+        </select>
+        </Fieldset>
+        </form>
+        <br>
+        <br>
+
+        <form>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+        <p>Natureza do cargo</p>
+        <input type="radio" name="Gerência" id="gerencia" value="Gerência">
+        <label for="gerencia">Gerência</label>
+
+        <input type="radio" name="Financeiro" id="financeiro" value="Financeiro">
+        <label for="financeiro">Financeiro</label>
+
+        <input type="radio" name="Recepção" id="recepcao" value="Recepção">
+        <label for="recepcao">Recepção</label>
+
+        <input type="radio" name="Administrativo" id="administrativo" value="Administrativo">
+        <label for="administrativo">Administrativo</label>
+
+        <input type="radio" name="Jurídico" id="juridico" value="Jurídico">
+        <label for="juridico">Jurídico</label>
+
+        <p>Área de Interesse</p>
+        
+        <input type="checkbox" name="area_de_interesse" id="area_de_interesse" value="Computação">
+        <label for="">Computação</label>
+        <br>
+        <input type="checkbox" name="area_de_interesse" id="area_de_interesse" value="biologia">
+        <label for="">Biologia</label>
+        <br>
+        <input type="checkbox" name="area_de_interesse" id="area_de_interesse" value="Meio Ambiente">
+        <label for="">Meio Ambiente</label>
+        <br>
+        <input type="checkbox" name="area_de_interesse" id="area_de_interesse" value="Engenharia">
+        <label for="">Engenharia</label>
+        <br>
+        <input type="checkbox" name="area_de_interesse" id="História" value="História">
+        <label for="">História</label>
+        <br>
+
+        <label for="mini_curriculo">Mini Currículo</label>
+        <textarea name="mini_curriculo" id="mini_curriculo" cols="20" rows="5"></textarea>
+        <br>
+       
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <button>Enviar</button>
+    <button type="reset">Limpar</button>
+
+    
+
+</body>
+</html>
