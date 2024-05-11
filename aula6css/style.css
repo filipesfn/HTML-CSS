@@ -1,0 +1,29 @@
+.titulo{
+    /*Não utilizamos o px quando desejamos que nossa fonte tenha responsividade de acordo com o dispositivo de visualização*/
+    font-size: 60px;
+    font-size: 4rem;
+}
+
+.caixinha{
+    background-color: blanchedalmond;
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caixinha_lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: azure;
+    color: cornflowerblue;
+    width: 100%;    
+    height: 100px;
+}
+
