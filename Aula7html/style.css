@@ -1,0 +1,71 @@
+body{
+    background-color: #1b1833;
+    color: white;
+    font-family: "Recursive", sans-serif;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.cabecalho_logo{
+    max-width: 250px;
+}
+.cabecalho_lista{
+    display: flex;
+    gap: 25px;
+}
+.cabecalho_lista_item{
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+.cabecalho_lista_item:hover{
+    text-decoration: underline;
+    color: rgb(184, 184, 184);
+}
+.home{
+    max-width: 1920px;
+}
+
+.home img{
+    max-width: 1920px;
+}
+.home{
+    background-image: url("./1351657.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_caixinha{
+    background-color: white;
+    color: #1b1833;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.home_caixinha_titulo{
+    font-family: "PAcifico", cursive;
+    font-size: 20px;
+}
+.home_caixinha_texto{
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 28px;
+}
+
+.home_caixinha_botao{
+    background-color: #1b1833;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 7px 15px;
+}
