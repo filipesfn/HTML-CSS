@@ -1,0 +1,23 @@
+.principal {
+background-image: url(./imagem\ tela\ portfolio.gif);
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.header {
+padding: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-size: 5px;
+} 
+
+.logo{
+    width: 60px;
+    border-radius: 50px;
+}
+
